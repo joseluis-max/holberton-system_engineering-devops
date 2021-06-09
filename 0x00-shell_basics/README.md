@@ -4,3 +4,4 @@
 - bring to home : `cd`
 - list long : `ls -l`
 - list hidden : `ls -la`
+- list numeric long hidden : `ls -lan`
