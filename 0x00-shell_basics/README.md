@@ -9,3 +9,4 @@
 - Move directory : `mv /tmp/betty -t /tmp/holberton`
 - Delete file : `rm /tmp/holberton/betty`
 - Delete directory : `rmdir /tmp/holberton`
+- Back a directory : `cd ..`
