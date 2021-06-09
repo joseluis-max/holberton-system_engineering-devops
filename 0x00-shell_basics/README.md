@@ -10,3 +10,4 @@
 - Delete file : `rm /tmp/holberton/betty`
 - Delete directory : `rmdir /tmp/holberton`
 - Back a directory : `cd ..`
+- List some directories :`ls -la ./ ../ /boot
