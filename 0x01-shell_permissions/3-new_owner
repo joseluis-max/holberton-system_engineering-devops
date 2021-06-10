@@ -1,0 +1,2 @@
+#!/bin/bash
+chowner betty 3-new_owner
