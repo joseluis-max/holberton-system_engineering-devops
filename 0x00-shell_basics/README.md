@@ -13,3 +13,4 @@
 - List some directories :`ls -la . .. /boot`
 - File type :`file /tmp/iamafile`
 - Copy files : `cp -rua *.html ../`
+- Move with upper : `mv [[:upper:]]* /tmp/u`
