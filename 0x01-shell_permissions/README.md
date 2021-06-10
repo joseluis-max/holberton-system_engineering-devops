@@ -8,3 +8,4 @@
 - Multiples permissions: `chmod {u+rwx, g+rwx, o-rwx}`
 - Permissions without commas : `chmod 101 <file_name>`
 - James Bond : 'chmod 007 hello`
+- John Doe :  `chmod 753 hello`
