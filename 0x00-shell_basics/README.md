@@ -16,3 +16,4 @@
 - Move with upper : `mv [[:upper:]]* /tmp/u`
 - Remove Recursive end ~ : `rm -r *~`
 - Tree make directory: `welcome/to/holberton`
+- Commas : `ls -lvmpa`
