@@ -5,3 +5,4 @@
 - Change owner: `chowner new_owner file`
 - Empty file : `touch <file_name.ext>`
 - Add and remote permissons: `chmod {u|g|o} {+|-} {rwx}`
+- Multiples permissions: `chmod {u+rwx, g+rwx, o-rwx}`
