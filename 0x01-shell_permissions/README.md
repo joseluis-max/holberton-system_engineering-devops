@@ -9,3 +9,4 @@
 - Permissions without commas : `chmod 101 <file_name>`
 - James Bond : 'chmod 007 hello`
 - John Doe :  `chmod 753 hello`
+- Mirror permissions :`chmod --reference=<file_name> file` 
