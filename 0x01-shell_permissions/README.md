@@ -10,4 +10,5 @@
 - James Bond : 'chmod 007 hello`
 - John Doe :  `chmod 753 hello`
 - Mirror permissions :`chmod --reference=<file_name> file`
-- Directories : `chmod -R 117 */` 
+- Directories : `chmod -R 117 */`
+- Directory with mode: `mkdir -m 751 dir_holberton`
