@@ -14,3 +14,4 @@
 - Directory with mode: `mkdir -m 751 dir_holberton`
 - Change group :`chgrp <group1> <file>`
 - change group and owner: `chowner user:group file`
+- Symbolic link : `chownew -h user:group file`
