@@ -17,3 +17,4 @@
 - Remove Recursive end ~ : `rm -r *~`
 - Tree make directory: `welcome/to/holberton`
 - Commas : `ls -lvmpa`
+- Magic file : `...`
