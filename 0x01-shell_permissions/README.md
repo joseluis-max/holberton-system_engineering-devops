@@ -12,3 +12,5 @@
 - Mirror permissions :`chmod --reference=<file_name> file`
 - Directories : `chmod -R 117 */`
 - Directory with mode: `mkdir -m 751 dir_holberton`
+- Change group :`chgrp <group1> <file>`
+- change group and owner: `chowner user:group file`
