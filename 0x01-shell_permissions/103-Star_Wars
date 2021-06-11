@@ -1,2 +1,2 @@
 #!/bin/bash
-echo “Hazlo o no lo hagas. Pero no lo intentes.” Frank Oz - Yoda.
+telnet towel.blinkenlights.nl
