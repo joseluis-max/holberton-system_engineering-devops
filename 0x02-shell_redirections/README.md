@@ -10,3 +10,4 @@
 - State repository : `ls -la > ls_cwd_content`
 - Repeat the last line: `tail -n 1 iacta >> iacta`
 - Recursive Deletion : `find . -name *.js -type f -delete`
+- Directories : `find ./* -type d | wc -l`
