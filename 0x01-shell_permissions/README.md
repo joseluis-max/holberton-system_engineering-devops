@@ -13,7 +13,7 @@
 - Directories : `chmod -R 117 */`
 - Directory with mode: `mkdir -m 751 dir_holberton`
 - Change group :`chgrp <group1> <file>`
-- change group and owner: `chowner user:group file`
+- change group and owner: `chown user:group file`
 - Symbolic link : `chownew -h user:group file`
 - If only : `chown --from=guillaume betty hello`
 - Start Wars : phrase
