@@ -19,3 +19,4 @@
 - Hidden lines : `grep -v "bin" /etc/passwd`
 - Letter only : `grep /etc/ssh/sshd_config -e '^[A-Za-z]'`
 - Change letter : `tr A Z | tr c e`
+- Delete words : `tr -d C | tr -d c`
