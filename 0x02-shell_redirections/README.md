@@ -14,3 +14,4 @@
 - Newest list : `ls -t | head -n 11`
 - Unique word : `sort $1 | uniq -u`
 - Grep : `grep -w /etc/passwd -e 'roo'`
+- Count words : `grep -w /etc/passwd -e "bin"| wc -w`
