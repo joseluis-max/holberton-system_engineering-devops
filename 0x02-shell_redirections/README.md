@@ -16,3 +16,5 @@
 - Grep : `grep -w /etc/passwd -e 'roo'`
 - Count words : `grep -w /etc/passwd -e "bin"| wc -w`
 - Show lines after match : `grep -A 3 /etc/passwd -e 'root' | cat`
+- Hidden lines : `grep -v "bin" /etc/passwd`
+- Letter only : `grep "^[[:upper:]]*" /etc/ssh/sshd_config`
