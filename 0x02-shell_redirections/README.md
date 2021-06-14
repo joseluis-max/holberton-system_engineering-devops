@@ -11,3 +11,4 @@
 - Repeat the last line: `tail -n 1 iacta >> iacta`
 - Recursive Deletion : `find . -name *.js -type f -delete`
 - Directories : `find ./* -type d | wc -l`
+- Newest list : `ls -t | head -n 11`
