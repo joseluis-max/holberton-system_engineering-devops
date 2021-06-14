@@ -13,8 +13,8 @@
 - Directories : `find ./* -type d | wc -l`
 - Newest list : `ls -t | head -n 11`
 - Unique word : `sort $1 | uniq -u`
-- Grep : `grep -w /etc/passwd -e 'roo'`
+- Grep : `grep -w /etc/passwd -e 'root'`
 - Count words : `grep -w /etc/passwd -e "bin"| wc -w`
 - Show lines after match : `grep -A 3 /etc/passwd -e 'root' | cat`
 - Hidden lines : `grep -v "bin" /etc/passwd`
-- Letter only : `grep "^[[:upper:]]*" /etc/ssh/sshd_config`
+- Letter only : `grep /etc/ssh/sshd_config -e '^[A-Za-z]'`
