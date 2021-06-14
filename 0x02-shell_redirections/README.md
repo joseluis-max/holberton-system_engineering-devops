@@ -5,3 +5,4 @@
 - Two files : `cat /etc/passwd /etc/host`
 - Last lines : `tail /etc/passwd`
 - First lines : `head /etc/passwd`
+- Third line : `head -n 3 iaca | tail -n 1`
