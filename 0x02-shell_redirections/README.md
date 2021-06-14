@@ -8,3 +8,4 @@
 - Third line : `head -n 3 iaca | tail -n 1`
 - File stranger name : `echo "Holberton School" > \*\\'\''"Holberton School"\'\''\\*$\?\*\*\*\*\*:)`
 - State repository : `ls -la > ls_cwd_content`
+- Repeat the last line: `tail -n 1 iacta >> iacta`
