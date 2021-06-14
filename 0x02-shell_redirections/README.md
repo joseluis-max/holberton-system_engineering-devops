@@ -15,3 +15,4 @@
 - Unique word : `sort $1 | uniq -u`
 - Grep : `grep -w /etc/passwd -e 'roo'`
 - Count words : `grep -w /etc/passwd -e "bin"| wc -w`
+- Show lines after match : `grep -A 3 /etc/passwd -e 'root' | cat`
