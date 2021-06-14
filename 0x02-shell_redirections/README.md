@@ -6,3 +6,4 @@
 - Last lines : `tail /etc/passwd`
 - First lines : `head /etc/passwd`
 - Third line : `head -n 3 iaca | tail -n 1`
+- File stranger name : `echo "Holberton School" > \*\\'\''"Holberton School"\'\''\\*$\?\*\*\*\*\*:)`

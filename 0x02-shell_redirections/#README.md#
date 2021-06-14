@@ -1,5 +1,0 @@
-### I/O, Redirections and filters.
-- Hel SMILEY : `"\"(ÔO)'"`
-- HELLO FILE : `CAT /ETC/PASSWD`
-- TWO FILES : `CAT /ETC/PASSWD /ETC/HOST`
-- LAST LINES : `TAIL /ETC/PASSWD`
