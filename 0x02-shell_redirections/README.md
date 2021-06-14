@@ -12,3 +12,4 @@
 - Recursive Deletion : `find . -name *.js -type f -delete`
 - Directories : `find ./* -type d | wc -l`
 - Newest list : `ls -t | head -n 11`
+- Unique word : `sort $1 | uniq -u`
