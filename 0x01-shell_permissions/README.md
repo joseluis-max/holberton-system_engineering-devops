@@ -2,7 +2,7 @@
 - Change user: `su <option> <user_name>`
 - Username :`whoami`
 - Groups current user : `groups`
-- Change owner: `chowner new_owner file`
+- Change owner: `chown new_owner file`
 - Empty file : `touch <file_name.ext>`
 - Add and remote permissons: `chmod {u|g|o} {+|-} {rwx}`
 - Multiples permissions: `chmod {u+rwx, g+rwx, o-rwx}`
@@ -14,6 +14,6 @@
 - Directory with mode: `mkdir -m 751 dir_holberton`
 - Change group :`chgrp <group1> <file>`
 - change group and owner: `chown user:group file`
-- Symbolic link : `chownew -h user:group file`
+- Symbolic link : `ln -s <link_file> <name_sl>`
 - If only : `chown --from=guillaume betty hello`
 - Start Wars : phrase
