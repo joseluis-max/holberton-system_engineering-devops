@@ -10,3 +10,4 @@
 - Addition : ` echo $(( 128 + $TRUEKNOWLEDGE))`
 - Divition : ` echo $(( $POWER / $DIVIDE))`
 - Power : ` echo $(( $BRETH**$LOVE))`
+- Binary to decimal : `echo $((2#$BINARY))`
