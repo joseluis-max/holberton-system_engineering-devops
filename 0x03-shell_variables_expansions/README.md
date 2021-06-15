@@ -3,3 +3,4 @@
 - USER : `echo "hello $USER"
 - PATH : `PATH=$PATH:/action`
 - PATHS : `echo $PATH | tr ":" "\n" | wc -l
+- GLOBALS VARIABLES : `printenv`
