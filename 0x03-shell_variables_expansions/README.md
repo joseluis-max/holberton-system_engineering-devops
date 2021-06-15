@@ -4,3 +4,4 @@
 - PATH : `PATH=$PATH:/action`
 - PATHS : `echo $PATH | tr ":" "\n" | wc -l
 - GLOBALS VARIABLES : `printenv`
+- LOCALS VARIABLES : `set`
