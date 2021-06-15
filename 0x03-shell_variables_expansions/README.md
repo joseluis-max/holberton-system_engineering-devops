@@ -12,3 +12,4 @@
 - Power : ` echo $(( $BRETH**$LOVE))`
 - Binary to decimal : `echo $((2#$BINARY))`
 - Combinations : `echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"`
+- Print Float: `printf "%0.2f\n" $NUM`
