@@ -2,3 +2,4 @@
 - Alias : `alias newNama=command`
 - USER : `echo "hello $USER"
 - PATH : `PATH=$PATH:/action`
+- PATHS : `echo $PATH | tr ":" "\n" | wc -l
