@@ -9,3 +9,4 @@
 - Create global variable : `export HOLBERTON:Betty`
 - Addition : ` echo $(( 128 + $TRUEKNOWLEDGE))`
 - Divition : ` echo $(( $POWER / $DIVIDE))`
+- Power : ` echo $(( $BRETH**$LOVE))`
