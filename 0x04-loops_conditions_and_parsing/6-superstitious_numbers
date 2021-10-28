@@ -10,7 +10,7 @@ while [ $i -le 20 ]; do
 		17)
 			echo "bad luck from Italy";;
 		*)
-			echo "Best School";;
+			echo $i;;
 	esac
 	((i++))
 done
