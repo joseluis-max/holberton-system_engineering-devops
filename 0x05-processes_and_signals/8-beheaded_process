@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # Don't stop me now
 kill -s SIGKILL "$(pgrep -f 7-highlander)"
-clear
