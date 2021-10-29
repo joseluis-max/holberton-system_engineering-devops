@@ -3,7 +3,7 @@
 #    The content of the current directory
 #    In a list format
 #    Where only the part of the name after the first dash is displayed (refer to the example)
-for f in ./*; do
-	[ -e "$f" ] || continue
-	echo "$f" | cut --complement -d "-" -f 1 
+export var=ls
+for f in $($var); do
+	echo "$f" | cut -d "-" -f 2  
 done
