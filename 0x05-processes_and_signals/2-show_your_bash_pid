@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # List your processes
-ps -e uf
+ps -e uf | awk -F" " '/bash/ { print $0 }'
