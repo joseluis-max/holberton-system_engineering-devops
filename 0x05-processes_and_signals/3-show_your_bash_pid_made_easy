@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Print bash pid more easy
-pidof bash | awk '{print $1" bash" "\n"$2" bash"}'
+# pidof bash | awk '{print $1" bash" "\n"$2" bash"}'
+pgrep -l bash
