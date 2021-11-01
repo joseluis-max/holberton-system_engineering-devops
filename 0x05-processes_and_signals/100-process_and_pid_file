@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# process and pid file.
+pid_file=myscript.pid
+echo "$$" > $pid_file
+sudo mv $pid_file /var/run/
+trap 'echo Y U no love me?!' SIGINT
+trap callback SIGQUIT SIGTERM
+function callback (){
+        echo "I hate the kill command"
+        sudo rm /var/run/my.pid
+        exit
+}
+while true; do 
+        echo "To infinity and beyond"
+        sleep 2
+done
