@@ -7,11 +7,11 @@ if [ "${1}" = start ]; then
         sudo mv $file_pid /var/run/my_process.pid
         echo "manage_my_process started"
 elif [ "${1}" = stop ]; then
-        pkill -F /var/run/my_process.pid
+        < /var/run/my_process.pid xargs kill
         sudo rm /var/run/my_process.pid
         echo "manage_my_process stopped"
 elif [ "${1}" = restart ]; then
-        pkill -F /var/run/my_process.pid
+        < /var/run/my_process.pid xargs kill
         sudo rm /var/run/my_process.pid
         ./manage_my_process &
         file_pid=my_process.pid
