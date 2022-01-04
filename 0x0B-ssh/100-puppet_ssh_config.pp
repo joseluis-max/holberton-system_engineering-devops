@@ -9,4 +9,5 @@ Host *
 file {'ssh config':
   path    => '/etc/ssh/ssh_config',
   content => $str,
+  mode    => '0766',
 }
