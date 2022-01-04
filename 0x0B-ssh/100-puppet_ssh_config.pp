@@ -7,7 +7,8 @@ Host *
         IdentityFile ~/.ssh/holberton
 "
 file {'/etc/ssh/ssh_config':
-  ensure  => '/etc/ssh/ssh_config',
+  ensure  => 'present',
+  path    => '/etc/ssh/ssh_config',
   content => $str,
   mode    => '0755',
 }
