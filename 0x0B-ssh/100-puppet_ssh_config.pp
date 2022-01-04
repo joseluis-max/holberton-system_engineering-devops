@@ -6,7 +6,7 @@ Host *
         ForwardX11 yes
         IdentityFile ~/.ssh/holberton
 "
-file {'ssh config':
+file {'/etc/ssh/ssh_config':
   path    => '/etc/ssh/ssh_config',
   content => $str,
   mode    => '0755',
