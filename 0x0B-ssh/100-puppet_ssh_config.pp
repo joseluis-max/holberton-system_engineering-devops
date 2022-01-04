@@ -1,5 +1,7 @@
 # configuration ssh config file
-$str = "Host *
+$str = "Include /etc/ssh/ssh_config.d/*.conf
+
+Host *
         ForwardAgent yes
         ForwardX11 yes
         IdentityFile ~/.ssh/holberton
