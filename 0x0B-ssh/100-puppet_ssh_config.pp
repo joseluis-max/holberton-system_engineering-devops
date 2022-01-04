@@ -4,7 +4,7 @@ $str = "Host *
         ForwardX11 yes
         IdentityFile ~/.ssh/holberton
 "
-file {'ssh config': 
+file {'ssh config':
   path    => '/etc/ssh/ssh_config',
   content => $str,
 }
