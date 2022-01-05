@@ -10,3 +10,4 @@ file {'/etc/ssh/ssh_config':
   content => $str,
   mode    => '0755',
 }
+
