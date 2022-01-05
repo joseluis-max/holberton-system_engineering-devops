@@ -1,2 +1,7 @@
 #!/usr/bin/env bash
 # Debugging
+sudo apt -y update
+sudo apt install -y apache2
+echo "Hello Holberton" > index.html
+sudo mv index.html /var/www/html
+sudo service apache2 reload
