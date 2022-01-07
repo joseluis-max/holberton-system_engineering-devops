@@ -22,7 +22,7 @@
 - How to connect to a remote host using an SSH RSA key pair
     
     ```bash
-    shh [root]@[host]
+    shh [user]@[host]
     ```
     
 - The advantage of using `#!/usr/bin/env bash` instead of `/bin/bash`
