@@ -7,7 +7,7 @@
     
     In a Database center
     
-    [https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3w2mpp70f6o8z.cloudfront.net%2Fmedia%2Fimages%2FDLS_007.original.jpg&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3w2mpp70f6o8z.cloudfront.net%2Fmedia%2Fimages%2FDLS_007.original.jpg&f=1&nofb=1)
+    ![https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3w2mpp70f6o8z.cloudfront.net%2Fmedia%2Fimages%2FDLS_007.original.jpg&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3w2mpp70f6o8z.cloudfront.net%2Fmedia%2Fimages%2FDLS_007.original.jpg&f=1&nofb=1)
     
 - What is SSH
     
