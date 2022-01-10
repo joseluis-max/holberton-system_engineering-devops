@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Configure a web server header
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+echo "Hello World!" > index.html
+sudo mv index.html /var/www/html
+sudo sed -i "/location \/ {/a add_header X-Served-By ${HOSTNAME};" /etc/nginx/sites-available/default
+
+sudo service nginx restart
