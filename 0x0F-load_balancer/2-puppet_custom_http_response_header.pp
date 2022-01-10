@@ -13,7 +13,7 @@ file_line { 'header line':
   add_header X-Served-By ${hostname};",
   match  => '^\tlocation / {',
 }
--> exec { 'restart service':
+exec { 'restart service':
   command  => 'sudo service nginx restart',
   provider => shell,
 }
