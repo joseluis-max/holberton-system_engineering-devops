@@ -7,4 +7,4 @@ sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.origina.cfg
 
 sudo sed -i "$ a\listen 3402-lb-01\n\tbind *:80\n\tmode http\n\tbalance roundrobin\n\toption forwardfor\n\tserver 3402-web-01 34.75.115.12:80 check\n\tserver 3402-web-02 54.92.203.11:80 check" /etc/haproxy/haproxy.cfg
 
-sudo systemctl restart haproxy
+sudo service haproxy restart
