@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # audit a domain name with a subdomain or not
 da() {
     if [ -z "$2" ]; then
