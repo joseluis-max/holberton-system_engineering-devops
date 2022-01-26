@@ -9,4 +9,4 @@
 #  The Bash script accepts one argument that is the password used to connect to the MySQL database
 d=$(date +"%d-%m-%Y")
 mysqldump -h localhost -u root -p"$1" --all-databases > backup.sql
-tar -cvf "$d".tar.gz backup.sql
+gzip -c backup.sql > "$d".tar.gz
