@@ -20,7 +20,8 @@ if __name__ == "__main__":
             tasks = json.loads(response.read().decode())
             with open("{}.csv".format(user.get("id")),
                       mode="w", encoding='utf-8') as csvfile:
-                filewriter = csv.writer(csvfile, delimiter=",", quotechar="'")
+                filewriter = csv.writer(csvfile, delimiter=",",
+                                        quoting=csv.QUOTE_ALL)
                 for t in tasks:
                     filewriter.writerow([user.get("id"),
                                         user.get("username"),
