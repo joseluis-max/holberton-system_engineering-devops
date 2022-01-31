@@ -5,14 +5,16 @@ from sys import argv
 from urllib import request
 
 if __name__ == "__main__":
-    url_user = f"https://jsonplaceholder.typicode.com/users/{argv[1]}"
+    url_user = "https://jsonplaceholder.typicode.com/users/{}"\
+                .format({argv[1]})
     with request.urlopen(url_user) as response:
         html = response.read()
         html = json.loads(html.decode())
         name = html.get("name")
-        print(f"Employee {name} is done with ", end="")
+        print("Employee {} is done with ".format(name), end="")
 
-    url_task = f"https://jsonplaceholder.typicode.com/users/{argv[1]}/todos"
+    url_task = "https://jsonplaceholder.typicode.com/users/{}/todos"\
+               .format({argv[1]})
     with request.urlopen(url_task) as response:
         html = response.read()
         html = json.loads(html.decode())
@@ -22,7 +24,7 @@ if __name__ == "__main__":
             if t.get("completed") is True:
                 done += 1
             task += 1
-        print(f"tasks({done}/{task}):")
+        print("tasks({}/{}):".format(done, task))
 
         for t in html:
             if t.get("completed") is True:
