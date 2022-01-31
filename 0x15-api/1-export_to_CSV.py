@@ -16,7 +16,7 @@ with request.urlopen(url_user) as response:
     url_task = f"https://jsonplaceholder.typicode.com/users/{argv[1]}/todos"
     with request.urlopen(url_task) as response:
         tasks = json.loads(response.read().decode())
-        with open(f"{user.id}.csv", "wb") as csvfile:
+        with open("{}.csv".format(user.get("id")), "w") as csvfile:
             filewriter = csv.writer(csvfile, delimiter=",", )
             for t in tasks:
                 filewriter.writerow([user.get("id"),
