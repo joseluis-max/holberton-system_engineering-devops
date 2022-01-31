@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-# API
 """ Script that, using this REST API, for a given employee ID,
-    returns information about his/her TO DO list progress.
+returns information about his/her TO DO list progress.
 """
 import json
 from sys import argv
