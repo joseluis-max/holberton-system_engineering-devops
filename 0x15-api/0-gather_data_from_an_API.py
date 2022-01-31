@@ -6,7 +6,7 @@ from urllib import request
 
 if __name__ == "__main__":
     url_user = "https://jsonplaceholder.typicode.com/users/{}"\
-                .format({argv[1]})
+                .format(argv[1])
     with request.urlopen(url_user) as response:
         html = response.read()
         html = json.loads(html.decode())
@@ -14,7 +14,7 @@ if __name__ == "__main__":
         print("Employee {} is done with ".format(name), end="")
 
     url_task = "https://jsonplaceholder.typicode.com/users/{}/todos"\
-               .format({argv[1]})
+               .format(argv[1])
     with request.urlopen(url_task) as response:
         html = response.read()
         html = json.loads(html.decode())
