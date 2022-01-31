@@ -4,19 +4,18 @@
 """
 import json
 from sys import argv
-import urllib.request
+from urllib import request
 
-from numpy import take
 
-with urllib.request.urlopen(f"https://jsonplaceholde\
-                             typicode.com/users/{argv[1]}") as response:
+url_user = f"https://jsonplaceholder.typicode.com/users/{argv[1]}"
+with request.urlopen(url_user) as response:
     html = response.read()
     html = json.loads(html.decode())
     name = html.get("name")
     print(f"Employee {name} is done with ", end="")
 
-with urllib.request.urlopen(f"https://jsonplaceholder.\
-                             typicode.com/users/{argv[1]}/todos") as response:
+url_task = f"https://jsonplaceholder.typicode.com/users/{argv[1]}/todos"
+with request.urlopen(url_task) as response:
     html = response.read()
     html = json.loads(html.decode())
     done = 0
