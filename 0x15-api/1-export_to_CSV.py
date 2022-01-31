@@ -2,7 +2,6 @@
 """ script that, using this REST API, for a given employee ID,
     returns information about his/her TODO list progress.
 """
-from asyncio import tasks
 import csv
 import json
 from sys import argv
