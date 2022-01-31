@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-""" Script that, using this REST API, for a given employee ID """
+"""Script that, using this REST API, for a given employee ID"""
 import json
 from sys import argv
 from urllib import request
-
 
 if __name__ == "__main__":
     url_user = f"https://jsonplaceholder.typicode.com/users/{argv[1]}"
