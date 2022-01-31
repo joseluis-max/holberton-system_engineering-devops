@@ -18,7 +18,8 @@ if __name__ == "__main__":
                    .format(argv[1])
         with request.urlopen(url_task) as response:
             tasks = json.loads(response.read().decode())
-            with open("{}.csv".format(user.get("id")), mode="w", encoding='utf-8') as csvfile:
+            with open("{}.csv".format(user.get("id")),
+                      mode="w", encoding='utf-8') as csvfile:
                 filewriter = csv.writer(csvfile, delimiter=",", quotechar="'")
                 for t in tasks:
                     filewriter.writerow([user.get("id"),
