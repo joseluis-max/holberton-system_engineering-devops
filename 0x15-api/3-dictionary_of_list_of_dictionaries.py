@@ -7,7 +7,7 @@ from urllib import request
 
 
 if __name__ == "__main__":
-    url_user = f"https://jsonplaceholder.typicode.com/users"
+    url_user = "https://jsonplaceholder.typicode.com/users"
     with request.urlopen(url_user) as response:
         users = json.loads(response.read().decode())
         data = {}
